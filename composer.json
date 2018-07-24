@@ -1,0 +1,23 @@
+{
+  "name": "e25-nirodha/base-button",
+  "type": "wordpress-plugin",
+  "license": ["GPL-2.0"],
+  
+  "description": "Shortcodes for WordPress with unyson framework",
+  "authors": [
+    {
+      "name": "Mindi Nirodha",
+      "email": "nirodha@eight25media.com",
+      "homepage": "https://github.com/Mindi-nirodha/Base-Button"
+    }
+  ],
+  "keywords": [
+    "wordpress", "composer","wp","unyson","shortcodes"
+  ],
+  
+  "require": {
+    "php": ">=5.6" 
+  },
+  "scripts": {}
+  
+}
