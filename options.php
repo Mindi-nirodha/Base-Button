@@ -15,19 +15,6 @@ $options= array(
         'value'=>'submit'
     ),
 
-    'color'  => array(
-        'label'   => __( 'Button Color', 'fw' ),
-        'desc'    => __( 'Choose a color for your button', 'fw' ),
-        'type'    => 'select',
-        'choices' => array(
-            ''      => __('Default', 'fw'),
-            'black' => __( 'Black', 'fw' ),
-            'blue'  => __( 'Blue', 'fw' ),
-            'green' => __( 'Green', 'fw' ),
-            'red'   => __( 'Red', 'fw' ),
-        )
-    ),
-
     'btn_type'  => array(
         'type'  => 'multi-picker',
         'label' => false,
@@ -70,8 +57,8 @@ $options= array(
 
             ),
 
-            'popup' => array(
-                'popup' => array(
+            'form_popup' => array(
+                'popup_id' => array(
                     'type'  => 'text',
                     'label' => __('Popup Id', '{domain}'),
                 ),
